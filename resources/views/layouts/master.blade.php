@@ -62,7 +62,7 @@
 
             if (resp.result === 'success') 
             {
-                $('#mailChimpMsg').text('Thanks for joining us. We add you to our list very soon.').show('slow');
+                $('#mailChimpMsg').text('Thanks for joining us. We will add you to our list very soon.').show('slow');
             }
             else
             {
