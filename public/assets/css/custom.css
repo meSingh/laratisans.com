@@ -1,0 +1,10 @@
+        
+
+
+    #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+         text-shadow: 0 1px 10px rgba(0,0,0,0.5);
+    }
+
+    #banner p {
+        text-shadow: 0 1px 10px rgba(0,0,0,0.5);
+    }
