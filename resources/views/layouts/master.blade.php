@@ -31,6 +31,11 @@
     
     @include('layouts.footer')
 
+    
+    
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+
     <script src="{{ asset('assets/js/smooth-scroll.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.ajaxchimp.min.js') }}"></script>
 
