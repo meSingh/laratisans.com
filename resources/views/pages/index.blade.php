@@ -11,8 +11,8 @@
                 <h2>Laratisans</h2>
                 <p>Simple Resources, Tools & Help for Laravel Artisans.</p>
                 <ul class="actions">
-                    <li><a href="#" class="button special">Sign Up</a></li>
-                    <li><a href="#" class="button">Learn More</a></li>
+                    <li><a href="#cta" class="button special" data-scroll>Sign Up</a></li>
+                    <li><a data-scroll href="#learnMore" class="button">Learn More</a></li>
                 </ul>
                 </div>
             </section>
@@ -37,7 +37,7 @@
                     <span class="image featured"><img src="assets/images/slack.jpg" alt="" /></span>
                 </section>
 
-                <section class="box special features">
+                <section id="learnMore" class="box special features">
                     <div class="features-row">
                         <section>
                             <span class="icon major fa-server accent2"></span>

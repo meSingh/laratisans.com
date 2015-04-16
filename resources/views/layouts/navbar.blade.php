@@ -4,7 +4,7 @@
                 <nav id="nav">
                     <ul>
                         <li><a href="{{ route('home') }}">Home</a></li>
-                        <li><a href="#cta" data-scroll class="button">Sign Up</a></li>
+                        <li><a href="#cta" class="button" data-scroll>Sign Up</a></li>
                     </ul>
                 </nav>
             </header>
