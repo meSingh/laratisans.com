@@ -9,35 +9,7 @@
 
     <meta name="description" content="We are the helpers of web builders and want to provide them with open knowledge, resources, tools that will help them build better products.">
 
-
-    <!-- this code between <header> ... </header> -->
-    <!-- <link href="css/bootstrap.min.css?7" media="screen" rel="stylesheet" type="text/css"> -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
-
-
-
-    <!-- this code directly before </body> -->
-
-
-    <!-- <link rel="stylesheet" href="{{ asset('assets/flat-ui/bootstrap/css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/flat-ui/css/flat-ui.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/common-files/css/icon-font.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/common-files/css/animations.css') }}"> -->
-
-
-<!-- 
-    <link rel="stylesheet" href="{{ asset('assets/ui-kit/ui-kit-header/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/ui-kit/ui-kit-content/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/ui-kit/ui-kit-blog/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/ui-kit/ui-kit-contacts/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/ui-kit/ui-kit-crew/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/ui-kit/ui-kit-price/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/ui-kit/ui-kit-projects/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/ui-kit/ui-kit-footer/css/style.css') }}"> -->
-
-
-
 
     <noscript>
         <link href="{{ asset('assets/css/skel.css') }}" media="screen" rel="stylesheet" type="text/css">
@@ -58,19 +30,6 @@
         @yield('content')
     
     @include('layouts.footer')
-
-    
-    <!-- this code directly before </body> -->
-    <script src="{{ asset('assets/common-files/js/jquery-1.10.2.min.js') }}"></script>
-    <script src="{{ asset('assets/flat-ui/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/common-files/js/jquery.scrollTo-1.4.3.1-min.js') }}"></script>
-    <script src="{{ asset('assets/common-files/js/modernizr.custom.js') }}"></script>
-    <script src="{{ asset('assets/common-files/js/page-transitions.js') }}"></script>
-    <script src="{{ asset('assets/common-files/js/easing.min.js') }}"></script>
-    <script src="{{ asset('assets/common-files/js/jquery.svg.js') }}"></script>
-    <script src="{{ asset('assets/common-files/js/jquery.svganim.js') }}"></script>
-    <script src="{{ asset('assets/common-files/js/jquery.parallax.min.js') }}"></script>
-    <script src="{{ asset('assets/common-files/js/startup-kit.js') }}"></script>
 
     <script src="{{ asset('assets/js/smooth-scroll.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.ajaxchimp.min.js') }}"></script>
