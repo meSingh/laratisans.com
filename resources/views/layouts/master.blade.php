@@ -24,6 +24,14 @@
 </head>
 <body class="landing">
 
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+
 
     @include('layouts.navbar')
         
@@ -56,6 +64,10 @@
                 url: $('form').attr('action'),
                 callback: checkResult  
             });
+
+            setTimeout(function(){
+                $('body').addClass('loaded');
+            }, 3000);
         });
 
         function checkResult (resp) {
@@ -85,6 +97,10 @@
       ga('send', 'pageview');
 
     </script>
+
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5530f1d05e5e892e" async="async"></script>
+
 
     <!-- https://www.flickr.com/photos/twitteroffice/4524718996 -->
     <!-- http://html5up.net/uploads/demos/alpha/ -->

@@ -2,7 +2,7 @@
 ### Simple Resources, Tools & Help for Laravel Artisans
 ---
 
-This product is to help fallow developers like me and is not meant to generate any revenue for me. I'm just trying to give something back to community but need some more help from the community to decide the future of this product and get some feedback for better shape if the way you need it. 
+This product is to help fallow developers like me and is not meant to generate any revenue for me. I'm just trying to give something back to community but need some more help from the community to decide the future of this product and get some feedback to better shape it the way you need it. 
 
 
 ### TODO

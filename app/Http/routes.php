@@ -11,7 +11,19 @@
 |
 */
 
-Route::get( '/',         [ 'as' => 'home',      'uses' => 'PagesController@index'       ] );
+Route::get( '/', [ 'as' => 'home', 'uses' => 'PagesController@index' ] );
+
+
+/*
+|--------------------------------------------------------------------------
+| Redirecting Routes
+|--------------------------------------------------------------------------
+*/
+
+Route::get('github', [ 'as' => 'github', function()
+{
+    return redirect('https://github.com/WebsterFolks/Laratisans');
+}]);
 
 
 /*
