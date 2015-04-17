@@ -20,4 +20,5 @@ Please everyone submit your feedback, suggestions or contributions to help us cr
 
 ### References
 * Alpha Theme: http://html5up.net/alpha/
+* Preloader: https://ihatetomatoes.net/create-custom-preloading-screen/
 
