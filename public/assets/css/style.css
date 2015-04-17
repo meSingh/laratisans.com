@@ -1227,40 +1227,6 @@
 		
 	}
 
-	#banner-bg {
-		position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-		background-attachment: scroll,							fixed;
-		background-color: #666;
-		/*background-color: #FB503B;*/
-		background-image: url("../images/.png"), url("../images/bg.jpg");
-		background-position: top left,						center center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
-		color: #fff;
-		padding: 12em 0 20em 0;
-		text-align: center;
-		
-	}
-
-	#banner-bg:before{
-    content: " ";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 1;
-    background: rgba(0, 0, 0, 0.2);
-    background: -webkit-radial-gradient(50% 55%, ellipse closest-corner, rgba(0, 0, 0, 0.10) 1%, rgba(0, 0, 0, 0.2) 100%);
-    background: -moz-radial-gradient(50% 55%, ellipse closest-corner, rgba(0, 0, 0, 0.10) 1%, rgba(0, 0, 0, 0.2) 100%);
-    background: -ms-radial-gradient(50% 55%, ellipse closest-corner, rgba(0, 0, 0, 0.10) 1%, rgba(0, 0, 0, 0.2) 100%);
-    background: radial-gradient(50% 55%, ellipse closest-corner, rgba(0, 0, 0, 0.10) 1%, rgba(0, 0, 0, 0.2) 100%);
-    z-index: 0;
-}
 
 		#banner :last-child {
 			margin-bottom: 0;
@@ -1270,7 +1236,6 @@
 			color: #fff;
 			 text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 			 font-weight: bold;
-			 text-shadow: 0 1px 10px rgba(0,0,0,0.5);
 		}
 
 		#banner h2 {
@@ -1285,7 +1250,6 @@
 			margin-bottom: 1.75em;
 			text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 			font-weight: bold;
-			text-shadow: 0 1px 10px rgba(0,0,0,0.5);
 		}
 
 		#banner input[type="submit"],
