@@ -34,7 +34,7 @@
                         <h2>Join us on slack to help us in helping you!</h2>
                         <p>You can join us on slack today to get help or give help to others.</p>
                     </header>
-                    <span class="image featured"><img src="assets/images/slack.jpg" alt="" /></span>
+                    <span class="image featured"><img src="{{ secure_asset('assets/images/slack.jpg') }}" alt="" /></span>
                 </section>
 
                 <section id="learnMore" class="box special features">
