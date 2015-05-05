@@ -12,11 +12,11 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
 
     <noscript>
-        <link href="{{ asset('assets/css/skel.css') }}" media="screen" rel="stylesheet" type="text/css">
-        <link href="{{ asset('assets/css/style.css') }}" media="screen" rel="stylesheet" type="text/css">
+        <link href="{{ secure_asset('assets/css/skel.css') }}" media="screen" rel="stylesheet" type="text/css">
+        <link href="{{ secure_asset('assets/css/style.css') }}" media="screen" rel="stylesheet" type="text/css">
     </noscript>
 
-    <link href="{{ asset('assets/css/custom.css') }}" media="screen" rel="stylesheet" type="text/css">
+    <link href="{{ secure_asset('assets/css/custom.css') }}" media="screen" rel="stylesheet" type="text/css">
 
     
 
@@ -44,15 +44,15 @@
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 
 
-    <script src="{{ asset('assets/js/smooth-scroll.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.ajaxchimp.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/smooth-scroll.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/jquery.ajaxchimp.min.js') }}"></script>
 
 
-    <script src="{{ asset('assets/js/jquery.dropotron.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.scrollgress.min.js') }}"></script>
-    <script src="{{ asset('assets/js/skel.min.js') }}"></script>
-    <script src="{{ asset('assets/js/skel-layers.min.js') }}"></script>
-    <script src="{{ asset('assets/js/init.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/jquery.dropotron.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/jquery.scrollgress.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/skel.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/skel-layers.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/init.js') }}"></script>
 
 
     <script>
@@ -103,6 +103,5 @@
 
 
     <!-- https://www.flickr.com/photos/twitteroffice/4524718996 -->
-    <!-- http://html5up.net/uploads/demos/alpha/ -->
 </body>
 </html>

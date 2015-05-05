@@ -10,7 +10,6 @@
                 </ul> -->
                 <h4>Made with <i class="fa fa-heart"></i> by <a href="http://msingh.com" target="_blank">Mandeep Singh</a></h4>
                 <ul class="copyright">
-                    <!-- <li>&copy; <a href="http://www.websterfolks.com">WebsterFolks</a> 2015. All rights reserved.</li> -->
                     <li>A community project for the open web</li>
                     <li>Sponsored by <a href="http://www.websterfolks.com" target="_blank">WebsterFolks</a></li>
                 </ul>
