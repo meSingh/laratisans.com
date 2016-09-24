@@ -11,11 +11,11 @@ title                    : "Laratisans"
 title_separator          : "-"
 name                     : &name "Khurafat Studio"
 description              : &description "Simple Resources, Tools & Help for Laravel Artisans"
-url                      : https://laratisans.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://www.laratisans.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Laratisans/laratisans.com"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 
 
 read_time                : false # Enable estimated reading time snippets
