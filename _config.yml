@@ -32,7 +32,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['name', 'email', 'message']
+  allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
@@ -58,20 +58,22 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "meSingh9"
+  username               : &twitter "Laratisans"
 facebook:
-  username               :
+  username               : &facebook "Laratisans"
   app_id                 :
   publisher              :
+github:
+  username               : "Laratisans"
 og_image                 : "site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Organization" # Person or Organization (defaults to Person)
+  name                   : "Khurafat Studio" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/mmistakes"
-    - "https://facebook.com/michaelrose"
+    - "https://twitter.com/Laratisans"
+    - "https://facebook.com/Laratisans"
 
 # Analytics
 analytics:
@@ -83,21 +85,21 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "michael-rose.jpg"
-  bio              : "Just another boring, tattooed, time traveling, designer."
-  location         : "Buffalo, NY"
+  avatar           : "mandeep-singh.jpg"
+  bio              : "A full stack web developer and consultant based in #Delhi, IN. I work on #Laravel (PHP Framework), #Angularjs, #Viewjs & Many Others."
+  location         : "Delhi, India"
   email            :
-  uri              : "https://mademistakes.com"
+  uri              : "https://www.msingh.com"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : *facebook
+  facebook         : "meSingh9"
   foursquare       :
-  github           : "mmistakes"
+  github           : "meSingh"
   google_plus      :
   keybase          :
-  instagram        : "mmistakes"
+  instagram        :
   lastfm           :
   linkedin         :
   pinterest        :
@@ -105,7 +107,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : *twitter
+  twitter          : "meSingh9"
   vine             :
   weibo            :
   xing             :

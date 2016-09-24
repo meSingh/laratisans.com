@@ -42,6 +42,10 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+
+  .page__footer-poweredby {
+      float: right;
+  }
 }
 
 .page__footer-follow {
