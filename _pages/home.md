@@ -21,7 +21,7 @@ feature_row:
 github:
   - excerpt: ''
 intro:
-  - excerpt: 'Get notified when we launch new stuff &nbsp; [<i class="fa fa-twitter"></i> @Laratisans](https://twitter.com/Laratisans){: .btn .btn--twitter}'
+  - excerpt: 'Get notified when we launch new stuff &nbsp; [<i class="fa fa-twitter"></i> @Laratisans](https://twitter.com/Laratisans){: .btn .btn--twitter}{:target="_blank"}'
 ---
 
 {% include feature_row id="intro" type="center" %}

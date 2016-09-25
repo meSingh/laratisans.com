@@ -42,7 +42,7 @@
           {% endif %}
 
           {% if f.url %}
-            <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a><a href="https://github.com/{{ f.user }}/{{ f.repo }}" class="btn btn--inverse" style="float:right;">{{ site.data.ui-text[site.locale].veiw_on_github | default: "View On Github" }}</a></p>
+            <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}" target="_blank">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a><a href="https://github.com/{{ f.user }}/{{ f.repo }}" class="btn btn--inverse" style="float:right;" target="_blank">{{ site.data.ui-text[site.locale].veiw_on_github | default: "View On Github" }}</a></p>
           {% endif %}
         </div>
       </div>

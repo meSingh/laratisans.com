@@ -48,6 +48,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
+  active                 : false # enable/disable feed url
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
@@ -63,6 +64,8 @@ facebook:
   username               : &facebook "Laratisans"
   app_id                 :
   publisher              :
+slack:
+  domain                 : laratisans
 github:
   username               : "Laratisans"
 og_image                 : "site-logo.png" # Open Graph/Twitter default site image

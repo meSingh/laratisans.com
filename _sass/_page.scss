@@ -132,20 +132,36 @@
     .wrapper {
       padding-left: 1em;
       padding-right: 1em;
+      text-align: center;
 
       @include breakpoint($x-large) {
         max-width: $x-large;
       }
+
+      @include breakpoint($medium) {
+        text-align: left;
+      }
     }
 
     .page__image {
-        float: right;
+
+        margin-bottom: 30px;
+
+        @include breakpoint($medium) {
+            float: right;
+            margin-bottom: 0;
+        }
 
         img {
           max-height: 275px;
-          margin-right: 100px;
+
+          @include breakpoint($medium) {
+            margin-right: 100px;
+          }
         }
     }
+
+
 
     .page__title,
     .page__meta,
