@@ -3,7 +3,8 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: home-page-feature.jpg
+  overlay_filter: ".4"
+  overlay_image: home-page-feature.jpeg
   cta_label:
   cta_url:
   caption:
@@ -15,6 +16,7 @@ feature_row:
     excerpt: "Laragist is a community-supported catalog of laravel packages and libraries."
     url: "http://laragist.org"
     btn_label: "Learn More"
+    btn_class: "btn--danger"
     user: Laratisans
     repo: laragist.org
 
