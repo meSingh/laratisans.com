@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Laratisans"
 title_separator          : "-"
-name                     : &name "Khurafat Studio"
+name                     : &name "Khurafat"
 description              : &description "Simple Resources, Tools & Help for Laravel Artisans"
 url                      : https://www.laratisans.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -17,7 +17,8 @@ repository               : "Laratisans/laratisans.com"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 
-
+host                     : localhost
+port                     : 4000
 read_time                : false # Enable estimated reading time snippets
 words_per_minute         : 200
 comments:
@@ -61,11 +62,11 @@ yandex_site_verification :
 twitter:
   username               : &twitter "Laratisans"
 facebook:
-  username               : &facebook "Laratisans"
+  username               : 
   app_id                 :
   publisher              :
 slack:
-  domain                 : laratisans
+  domain                 :
 github:
   username               : "Laratisans"
 og_image                 : "site-logo.png" # Open Graph/Twitter default site image
@@ -73,23 +74,23 @@ og_image                 : "site-logo.png" # Open Graph/Twitter default site ima
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : "Organization" # Person or Organization (defaults to Person)
-  name                   : "Khurafat Studio" # If the user or organization name differs from the site's name
+  name                   : "Khurafat" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://twitter.com/Laratisans"
-    - "https://facebook.com/Laratisans"
+
 
 # Analytics
 analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-XXXXXXX-X"
+    tracking_id          : "UA-61955256-1"
 
 
 # Site Author
 author:
   name             : *name
   avatar           : "mandeep-singh.jpg"
-  bio              : "A full stack web developer and consultant based in #Delhi, IN. I work on #Laravel (PHP Framework), #Angularjs, #Viewjs & Many Others."
+  bio              : "A full stack web developer and consultant based in #Delhi, IN. I work on #Laravel (PHP Framework), #Angularjs, #Vuejs & Many Others."
   location         : "Delhi, India"
   email            :
   uri              : "https://www.msingh.com"
@@ -97,7 +98,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "meSingh9"
+  facebook         : 
   foursquare       :
   github           : "meSingh"
   google_plus      :

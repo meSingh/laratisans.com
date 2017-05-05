@@ -8,17 +8,35 @@ header:
   cta_label:
   cta_url:
   caption:
-excerpt: '<b>Laravel Artisans</b> building laravel packages & open source tools for & with <b>Laravel</b>. Get help or help us make something awesome for <b>Laravel Community</b>.'
+excerpt: '<b>Laravel Artisans</b> building laravel packages & open source tools for or with <b>Laravel</b>. Get help or help us make something awesome for <b>Laravel Community</b>.'
 feature_row:
   - image_path: projects/laragist/icon.png
     alt: "laragist"
     title: "Laragist"
-    excerpt: "Laragist is a community-supported catalog of laravel packages and libraries."
+    excerpt: "Laragist is a community-supported catalog of laravel packages and libraries with author support."
     url: "http://laragist.org"
     btn_label: "Learn More"
     btn_class: "btn--danger"
     user: Laratisans
     repo: laragist.org
+  - image_path: projects/envpackages/icon.png
+    alt: "laravel env sepecifc packages"
+    title: "Env Packages"
+    excerpt: "This laravel package lets you define various package requirements according to the environment."
+    url: "https://github.com/Laratisans/laravel-env-packages"
+    btn_label: "Learn More"
+    btn_class: "btn--warning"
+    user: meSingh
+    repo: laravel-env-packages
+  - image_path: projects/secretivelaravel/icon.png
+    alt: "secretivelaravel"
+    title: "Secretive Laravel"
+    excerpt: "Secretive Laravel introduces new & experienced developers to the hidden features of Laravel."
+    url: "https://www.secretivelaravel.com"
+    btn_label: "Learn More"
+    btn_class: "btn--danger"
+    user: Laratisans
+    repo: secretivelaravel.com
 
 github:
   - excerpt: ''
